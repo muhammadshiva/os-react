@@ -27,10 +27,10 @@ jobs:
         run: |
           mkdir ~/.oci
           echo "[DEFAULT]" >> ~/.oci/config
-          echo "user=${{secrets.OCI_USER_OCID}}" >> ~/.oci/config
-          echo "fingerprint=${{secrets.OCI_FINGERPRINT}}" >> ~/.oci/config
-          echo "region=${{secrets.OCI_REGION}}" >> ~/.oci/config
-          echo "tenancy=${{secrets.OCI_TENANCY_OCID}}" >> ~/.oci/config
+          echo "user=${{secrets.aaaaaaaa2ylitpt5mc3d5z37vspx4xfkbi4dmcfdiog77v2bbjuvom4od2hq}}" >> ~/.oci/config
+          echo "fingerprint=${{secrets.0a:7a:c9:bb:9c:26:8e:75:25:d3:69:58:a3:f9:75:a7}}" >> ~/.oci/config
+          echo "region=${{secrets.ap-sydney-1}}" >> ~/.oci/config
+          echo "tenancy=${{secrets.aaaaaaaavinzj4bx6mignasay6qjuhdqefeeu73mtfscmzelbjifuqwo6ela}}" >> ~/.oci/config
           echo "key_file=~/.oci/oci_api_key.pem" >> ~/.oci/config
           echo "${{secrets.OCI_KEY_FILE}}" >> ~/.oci/oci_api_key.pem
           echo "${{secrets.OCI_KEY_PUBLIC}}" >> ~/.oci/oci_api_key_public.pem
